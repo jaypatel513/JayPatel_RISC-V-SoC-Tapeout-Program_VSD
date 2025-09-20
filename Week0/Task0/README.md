@@ -42,7 +42,7 @@ make
 # Install system-wide
 sudo make install
 
-✔ Explanation:
+# ✔ Explanation:
 
 git clone → Downloads Yosys source code
 
@@ -52,33 +52,33 @@ make → Compiles the source code
 
 sudo make install → Installs Yosys globally
 
-2️⃣ Icarus Verilog (iverilog) – Verilog Simulator
+### 2️⃣ Icarus Verilog (iverilog) – Verilog Simulator
 
-Icarus Verilog
+# Icarus Verilog
  is used for compiling and simulating Verilog HDL.
 
 sudo apt-get update
 sudo apt-get install iverilog
 
 
-✔ Explanation:
+# ✔ Explanation:
 
 Installed directly from Ubuntu’s package manager.
 
-3️⃣ GTKWave – Waveform Viewer
+### 3️⃣ GTKWave – Waveform Viewer
 
-GTKWave
+# GTKWave
  is used to visualize simulation waveforms (.vcd files).
 
 sudo apt-get update
 sudo apt install gtkwave
 
 
-✔ Explanation:
+# ✔ Explanation:
 
 Simple one-command installation for waveform debugging.
 
-🛠️ Verification
+## 🛠️ Verification
 
 Run the following commands to confirm installations:
 
@@ -87,14 +87,14 @@ iverilog -V       # Check Icarus Verilog version
 gtkwave --version # Check GTKWave version
 
 
-✅ If all versions are displayed correctly, your setup is successful.
+### ✅ If all versions are displayed correctly, your setup is successful.
 
-📊 Tools Summary
+## 📊 Tools Summary
 Tool	Purpose	Verification Command
 Yosys	RTL synthesis	yosys -V
 Icarus	Verilog simulation	iverilog -V
 GTKWave	Waveform visualization	gtkwave --version
-🎯 Summary
+## 🎯 Summary
 
 By completing these steps, you will have:
 
@@ -104,4 +104,4 @@ Icarus Verilog (iverilog) → HDL simulation
 
 GTKWave → Waveform visualization
 
-✅ Ready to use for the RISC-V SoC Tapeout flow 🚀
+# ✅ Ready to use for the RISC-V SoC Tapeout flow 🚀
