@@ -36,6 +36,8 @@ git submodule update --init --recursive
 make 
 sudo make install
 ```
+**TOOL CHECK**
+![Alt Text](Images/yosys.png)
 
 **✔ Explanation:**
 - `git clone` → Downloads Yosys source code
@@ -54,6 +56,8 @@ Icarus Verilog is used for compiling and simulating Verilog HDL.
 sudo apt-get update
 sudo apt-get install iverilog
 ```
+**TOOL CHECK**
+![Alt Text](Images/iverilog.png)
 
 **✔ Explanation:**
 - Installed directly from Ubuntu’s package manager.
@@ -69,6 +73,8 @@ GTKWave is used to visualize simulation waveforms (.vcd files).
 sudo apt-get update
 sudo apt-get install gtkwave
 ```
+**TOOL CHECK**
+![Alt Text](Images/gtkwave.png)
 
 **✔ Explanation:**
 - Simple one-command installation for waveform debugging.
