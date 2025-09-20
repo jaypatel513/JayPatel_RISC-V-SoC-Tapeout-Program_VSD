@@ -81,17 +81,14 @@ Run the following commands to confirm installations:
 
 ```bash
 yosys
-
+iverilog -v
+gtkwave -v
+```
 ![Alt Text](Images/yosys.png)
-
-iverilog -V
 
 ![Alt Text](Images/iverilog.png)
 
-gtkwave -V
-
 ![Alt Text](Images/gtkwave.png)
-```
 
 ✅ If all versions are displayed correctly, your setup is successful.
 
@@ -100,8 +97,8 @@ gtkwave -V
 ### 📊 Tools Summary
 
 - **Yosys** → RTL synthesis → `yosys`
-- **Icarus** → Verilog simulation → `iverilog -V` 
-- **GTKWave** → Waveform visualization → `gtkwave --version`
+- **Icarus** → Verilog simulation → `iverilog -v` 
+- **GTKWave** → Waveform visualization → `gtkwave -v`
 ---
 
 ### 🎯 Summary
