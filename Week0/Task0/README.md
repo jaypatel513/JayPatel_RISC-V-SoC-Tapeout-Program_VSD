@@ -80,9 +80,17 @@ sudo apt-get install gtkwave
 Run the following commands to confirm installations:
 
 ```bash
-yosys -V          # Check Yosys version
-iverilog -V       # Check Icarus Verilog version
-gtkwave --version # Check GTKWave version
+yosys
+
+![Alt Text](Images/yosys.png)
+
+iverilog -V
+
+![Alt Text](Images/iverilog.png)
+
+gtkwave -V
+
+![Alt Text](Images/gtkwave.png)
 ```
 
 ✅ If all versions are displayed correctly, your setup is successful.
@@ -92,18 +100,8 @@ gtkwave --version # Check GTKWave version
 ### 📊 Tools Summary
 
 - **Yosys** → RTL synthesis → `yosys`
-
-![Alt Text](Images/yosys.png)
-
-- **Icarus** → Verilog simulation → `iverilog -V`
-- 
-![Alt Text](Images/iverilog.png)
-- 
+- **Icarus** → Verilog simulation → `iverilog -V` 
 - **GTKWave** → Waveform visualization → `gtkwave --version`
-
-- ![Alt Text](Images/gtkwave.png)
-- 
-
 ---
 
 ### 🎯 Summary
