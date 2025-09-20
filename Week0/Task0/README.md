@@ -81,12 +81,19 @@ Run the following commands to confirm installations:
 
 ```bash
 yosys
-iverilog -v
-gtkwave -v
 ```
+
 ![Alt Text](Images/yosys.png)
 
+```bash
+iverilog -v
+```
+
 ![Alt Text](Images/iverilog.png)
+
+```bash
+gtkwave -v
+```
 
 ![Alt Text](Images/gtkwave.png)
 
